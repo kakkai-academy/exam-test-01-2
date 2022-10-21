@@ -1,0 +1,15 @@
+#Default Option
+server:
+  port: 8080
+  compression:
+    enabled: on
+  http2:
+    enabled: on
+  shutdown: graceful
+
+management:
+  endpoint:
+    health:
+      enabled: on
+    info:
+      enabled: on
